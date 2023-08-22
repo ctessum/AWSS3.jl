@@ -75,7 +75,7 @@ UInt8[]
 !!! warning
 
     S3 is a pure [key-value store](https://en.wikipedia.org/wiki/Key%E2%80%93value_database),
-    **NOT** a filesystem.  Therefore, though S3 has, over time, gained features which oftne mimic a
+    **NOT** a filesystem.  Therefore, though S3 has, over time, gained features which often mimic a
     filesystem interface, in some cases it can behave very differently.  In particular "empty
     directories" are, in actuality, 0-byte files and can have some unexpected behavior, e.g. there
     is no `stat(dir)` like in a true filesystem.
